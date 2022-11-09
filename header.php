@@ -13,8 +13,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
-<body class=' bg-light text-dark' style='--bs-bg-opacity: .5;'>
-    <nav class="navbar navbar-light bg-warning" style="height: 60px;">
+<body class="text-dark" style="background-color: rgb(0, 0, 0); background-image: url('images/back.jpg'); background-position: top 40px center; background-size: cover; background-repeat: no-repeat;">
+    <nav class="navbar navbar-light" style="background-color: #FF8C00; height: 60px;">
         <a class="navbar-brand" href="index.php">
             <img src="images/OES.png" width="64" height="48" style="position: absolute; top: 5px">
         </a>
@@ -25,4 +25,4 @@
         </ul>
     </nav>
     
-    <main role="main" class="container-fluid">
+    <main role="main" class="container-fluid" style="color:#EFEFEF">

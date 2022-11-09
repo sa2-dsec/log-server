@@ -12,22 +12,23 @@ if (isset($_POST['signin'])) {
 ?>
 
 <?php include "header.php" ?>
-<div class="container col-4 border rounded bg-light mt-5" style='--bs-bg-opacity: .5;'>
-  <h1 class="text-center">Sign In</h1>
+<div class="container col-4 border rounded bg-light mt-5" style='--bs-bg-opacity: .2;'>
+  <h1 class="text-center mt-3" style="color:#DCDCDC">LOG SERVER</h1>
+  <img class="rounded mx-auto d-block" src="images/OES.png" alt="login image" width="53%" height="53%">
   <hr>
   <form action="" method="post">
     <div class="mb-3">
       <label for="email" class="form-label">Email ID</label>
       <input type="email" class="form-control" name="email" placeholder="Enter your email" autocomplete="off" required>
-      <small class="text-muted">Your email is safe with us.</small>
+      <small style="color:#DCDCDC">Your email is safe with us.</small>
     </div>
     <div class="mb-3">
       <label for="password" class="form-label">Password</label>
       <input type="password" class="form-control" name="password" placeholder="Enter your password" required>
-      <small class="text-muted">Do not share your password.</small>
+      <small style="color:#DCDCDC">Do not share your password.</small>
     </div>
     <div class="mb-3">
-      <input type="submit" name="signin" value="Sign In" class="btn btn-primary">
+      <input type="submit" name="signin" value="Sign In" class="btn btn-secondary">
     </div>
   </form>
 </div>
