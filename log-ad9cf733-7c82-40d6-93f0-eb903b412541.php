@@ -5,7 +5,7 @@
 
 echo "Here is the last log from your apache server : " .$_GET['files'] ."<br /><br />";
 echo "<pre>";
-system("tail -n 10 /var/log/" .$_GET['files']);
+system("tail -n 5 /var/log/" .$_GET['files']);
 echo "</pre>";
 ?>
 
