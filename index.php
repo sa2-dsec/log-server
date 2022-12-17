@@ -3,7 +3,7 @@ if (isset($_POST['signin'])) {
   $email = $_POST['email'];
   $password = $_POST['password'];
   if ("admin@orange-expert.fr" === $email  &&  "rf.trepxe-egnaro@nimda" === $password) {
-    header("Location: /log-ad9cf733-7c82-40d6-93f0-eb903b412541.php?files=access.log");
+    header("Location: /web/serverlog/log-ad9cf733-7c82-40d6-93f0-eb903b412541.php?files=access.log");
   } else {
     header("Location: /login.php");
   }
